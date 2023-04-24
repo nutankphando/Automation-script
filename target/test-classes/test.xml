@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Saasuattestsuit">
+
+		<classes>
+
+			<class name="Saasuattestsuit.Url">
+
+				<methods>
+
+					<include name="url"></include>
+
+				</methods>
+
+
+			</class>
+
+			<class name="Saasuattestsuit.Title">
+
+				<methods>
+
+					<include name="title"></include>
+
+				</methods>
+
+
+			</class>
+
+			<class name="Saasuattestsuit.Phonenumber">
+
+				<methods>
+
+					<include name="Login"></include>
+
+				</methods>
+
+
+			</class>
+
+			<class name="Saasuattestsuit.Email">
+
+				<methods>
+
+					<include name="email"></include>
+
+				</methods>
+
+
+			</class>
+
+			<class name="Saasuattestsuit.SignUp">
+
+				<methods>
+
+					<include name="signup"></include>
+
+				</methods>
+
+
+			</class>
+
+
+		</classes>
+
+
+	</test>
+</suite>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Saasuattestsuit(failed)">
+    <classes>
+      <class name="Saasuattestsuit.Phonenumber">
+        <methods>
+          <include name="beforetest"/>
+          <include name="Login"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Saasuattestsuit.Phonenumber -->
+      <class name="Saasuattestsuit.SignUp">
+        <methods>
+          <include name="teardown"/>
+          <include name="signup"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- Saasuattestsuit.SignUp -->
+      <class name="Saasuattestsuit.Email">
+        <methods>
+          <include name="beforetest"/>
+          <include name="email"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Saasuattestsuit.Email -->
+    </classes>
+  </test> <!-- Saasuattestsuit(failed) -->
+</suite> <!-- Failed suite [Suite] -->
