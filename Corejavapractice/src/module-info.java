@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author Nutan
+ *
+ */
+module Corejavapractice {
+}
